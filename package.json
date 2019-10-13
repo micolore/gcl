@@ -1,0 +1,37 @@
+{
+  "name": "kl",
+  "version": "1.0.0",
+  "description": "git",
+  "main": ".commitlint.config-my.js",
+  "scripts": {
+    "test": "test",
+    "commitmsg": "commitlint -e $GIT_PARAMS"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micolore/kl-git.git"
+  },
+  "keywords": [
+    "git"
+  ],
+  "author": "kubrick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/micolore/kl-git/issues"
+  },
+  "homepage": "https://github.com/micolore/kl-git#readme",
+  "devDependencies": {
+    "husky": "^3.0.9"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "./.cz-config.js"
+    }
+  },
+  "dependencies": {
+    "cz-customizable": "^6.2.0"
+  }
+}
