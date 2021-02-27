@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/micolore/kl-git.git"
+    "url": "git+https://github.com/micolore/gcl.git"
   },
   "keywords": [
     "git"
@@ -17,9 +17,9 @@
   "author": "kubrick",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/micolore/kl-git/issues"
+    "url": "https://github.com/micolore/gcl/issues"
   },
-  "homepage": "https://github.com/micolore/kl-git#readme",
+  "homepage": "https://github.com/micolore/gcl#readme",
   "devDependencies": {
     "husky": "^3.0.9"
   },
@@ -28,7 +28,7 @@
       "path": "node_modules/cz-customizable"
     },
     "cz-customizable": {
-      "config": "./.cz-config.js"
+      "config": "./.cz-config-java.js"
     }
   },
   "dependencies": {
